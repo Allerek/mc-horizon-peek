@@ -1,6 +1,10 @@
+# Local Horizon SDK and build output
 /target/
 /.horizon/
+/debug/
 /PUBLISH.md
+
+# Packages, signatures, and private configuration
 *.hmod
 *.hnmod
 *.minisig
@@ -8,6 +12,14 @@
 *.pem
 .env
 .env.*
+
+# Rust tooling
+**/*.rs.bk
+*.pdb
+**/mutants.out*/
+rustc-ice-*.txt
+
+# Editors and operating systems
 .idea/
 .vscode/
 .DS_Store
