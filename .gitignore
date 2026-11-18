@@ -1,0 +1,14 @@
+/target/
+/.horizon/
+/PUBLISH.md
+*.hmod
+*.hnmod
+*.minisig
+*.key
+*.pem
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
